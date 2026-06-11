@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Water Color Sort</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333333;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2rem;
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .sidebar h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #718096;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin-bottom: 0.75rem;
+        }
+
+        .sidebar a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .sidebar a:hover {
+            color: var(--secondary-color);
+        }
+
+        /* Main Content Area */
+        main {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+            scroll-margin-top: 2rem;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #4a5568;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: #4a5568;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .grid-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 0.75rem;
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 1rem;
+        }
+
+        .grid-list li {
+            background: var(--bg-color);
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .contact-box {
+            background-color: #ebf8ff;
+            border-left: 4px solid var(--secondary-color);
+            padding: 1.5rem;
+            border-radius: 0 6px 6px 0;
+            margin-top: 1.5rem;
+        }
+
+        .contact-box p {
+            margin-bottom: 0;
+        }
+
+        .contact-box a {
+            color: var(--secondary-color);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 4rem;
+            background-color: var(--card-bg);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                display: none; /* Hide sidebar on mobile for better readability */
+            }
+            main {
+                padding: 1.5rem;
+            }
+            header h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Privacy Policy</h1>
+        <p>Water Color Sort — MJ Gaming Studio</p>
+    </header>
+
+    <div class="container">
+        <!-- Navigation Sidebar -->
+        <aside class="sidebar">
+            <h3>Sections</h3>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#collection">Collection & Use</a></li>
+                <li><a href="#third-party">Third-Party Services</a></li>
+                <li><a href="#log-data">Log Data</a></li>
+                <li><a href="#cookies">Cookies</a></li>
+                <li><a href="#service-providers">Service Providers</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#links">External Links</a></li>
+                <li><a href="#children">Children’s Privacy</a></li>
+                <li><a href="#data-deletion">Data Deletion</a></li>
+                <li><a href="#changes">Policy Changes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>MJ Gaming Studio built the Water Color Sort game as a Free & In-App Purchase game. This SERVICE is provided by MJ Gaming Studio at no cost and is intended for use as-is.</p>
+                <p>This page informs visitors regarding our policies on the collection, use, and disclosure of Personal Information for those who choose to use our Service.</p>
+                <p>By choosing to use our Service, you agree to the collection and use of information per this policy. The data we collect is used solely for providing and improving the Service. We do not use or share your information with anyone except as described in this Privacy Policy.</p>
+                <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible within the Water Color Sort app, unless otherwise defined here.</p>
+            </section>
+
+            <section id="collection">
+                <h2>Information Collection and Use</h2>
+                <p>For an enhanced experience, we may require you to provide certain non-personally identifiable information while using our Service. We collect only the data necessary for functionality, analytics, and improvements. This information, retained by us as described in this policy, will not identify you personally.</p>
+                <p>Our app uses third-party services, which may collect information for identification purposes.</p>
+            </section>
+
+            <section id="third-party">
+                <h2>Third-Party Service Providers</h2>
+                <p>Our app relies on the following third-party services that may collect data used to identify you:</p>
+                <ul class="grid-list">
+                    <li>Google Play Services</li>
+                    <li>AdMob</li>
+                    <li>Unity</li>
+                    <li>Facebook</li>
+                    <li>IronSource</li>
+                    <li>Liftoff</li>
+                    <li>Google Analytics for Firebase</li>
+                    <li>Firebase Crashlytics</li>
+                </ul>
+                <p style="margin-top: 1rem;">We encourage you to review the privacy policies of these providers to understand how they handle your data.</p>
+            </section>
+
+            <section id="log-data">
+                <h2>Log Data</h2>
+                <p>In case of an error in the app, we collect data (via third-party products) on your device known as Log Data. This may include information such as your device’s Internet Protocol (“IP”) address, device name, operating system version, app configuration at the time of the error, usage time, date, and other statistics. This data is used solely for diagnosing and resolving issues.</p>
+            </section>
+
+            <section id="cookies">
+                <h2>Cookies</h2>
+                <p>Cookies are small data files used as unique identifiers. Our app does not directly use cookies; however, third-party code or libraries included in the app may use cookies to improve their services. You can accept or refuse cookies, although declining may affect app functionality.</p>
+            </section>
+
+            <section id="service-providers">
+                <h2>Service Providers</h2>
+                <p>We employ third-party companies and individuals for the following reasons:</p>
+                <ul>
+                    <li>To facilitate our Service;</li>
+                    <li>To perform Service-related functions on our behalf;</li>
+                    <li>To assist in analyzing app usage.</li>
+                </ul>
+                <p>These third parties may access your non-personally identifiable information solely to perform tasks on our behalf, and they are obligated not to use or share it beyond these purposes.</p>
+            </section>
+
+            <section id="security">
+                <h2>Security</h2>
+                <p>We value your trust in providing your Personal Information, and we use commercially reasonable means to protect it. Please note that no method of electronic transmission or storage is 100% secure and reliable, and we cannot guarantee absolute security.</p>
+            </section>
+
+            <section id="links">
+                <h2>Links to Other Sites</h2>
+                <p>Our Service may contain links to external sites. If you click on a third-party link, you will be directed to that site. These external sites are not operated by us, and we advise reviewing their Privacy Policies. We hold no responsibility for the content, policies, or practices of any third-party sites or services.</p>
+            </section>
+
+            <section id="children">
+                <h2>Children’s Privacy</h2>
+                <p>This Service does not address anyone under 13. We do not knowingly collect personally identifiable information from children under 13. If we learn of any Personal Information collected from a child under 13, it will be promptly deleted. If you are a parent or guardian and are aware of such information, please contact us to take necessary actions.</p>
+            </section>
+
+            <section id="data-deletion">
+                <h2>Data Deletion Requests</h2>
+                <p>The Water Color Sort game does not collect personal data such as email, phone number, etc. Only non-identifiable analytics and crash reports are gathered. If you prefer not to share such data, you may simply uninstall the app.</p>
+            </section>
+
+            <section id="changes">
+                <h2>Changes to This Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time, and you are encouraged to review this page periodically. We will notify users of any changes by posting the new Privacy Policy on this page.</p>
+                <p><strong>Effective Date:</strong> 2024-10-15</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>For questions or suggestions about this Privacy Policy, please reach out to us:</p>
+                <div class="contact-box">
+                    <p><strong>Email Support:</strong> <a href="mailto:mjtechnologyofficial@yahoo.com">mjtechnologyofficial@yahoo.com</a></p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 MJ Gaming Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
