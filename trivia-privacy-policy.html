@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Challenge - Terms & Privacy Policy</title>
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --primary-hover: #4338ca;
+            --text-color: #334155;
+            --heading-color: #1e293b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: var(--heading-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .meta-date {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 15px;
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .tab-btn:hover {
+            color: var(--primary-color);
+        }
+
+        .tab-btn.active {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: -2px;
+        }
+
+        .tab-content {
+            display: none;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--heading-color);
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+
+        p, li {
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .network-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1xl));
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .network-item {
+            background: var(--bg-color);
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .contact-box {
+            background: #eef2ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 30px;
+        }
+
+        .contact-box p {
+            margin: 0;
+        }
+
+        .contact-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+            .tab-content {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Trivia Challenge</h1>
+        <p class="meta-date"><strong>Effective Date:</strong> 20-03-2025 | <strong>Last Updated:</strong> 20-03-2025</p>
+        <p>Thank you for playing Trivia Challenge! Your privacy is important to us. This document outlines your rights, responsibilities, and how we protect your data to ensure a fair gaming experience.</p>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-btn active" onclick="openTab(event, 'tos')">Terms of Service</button>
+        <button class="tab-btn" onclick="openTab(event, 'privacy')">Privacy Policy</button>
+    </div>
+
+    <!-- TERMS OF SERVICE -->
+    <div id="tos" class="tab-content active">
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or playing Trivia Challenge, you agree to be bound by these Terms of Service. If you do not agree, please discontinue using the game.</p>
+
+        <h2>2. License to Use</h2>
+        <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the game for personal entertainment.</p>
+        <ul>
+            <li>You may not copy, modify, distribute, sell, or exploit any part of the game.</li>
+        </ul>
+
+        <h2>3. User Conduct and Restrictions</h2>
+        <p>While using Trivia Challenge, you agree not to:</p>
+        <ul>
+            <li>Cheat, hack, exploit bugs, or interfere with the game’s mechanics.</li>
+            <li>Modify or distribute unauthorized versions of the game.</li>
+            <li>Engage in abusive, offensive, or fraudulent behavior.</li>
+            <li>Violate any laws while using the game.</li>
+        </ul>
+
+        <h2>4. In-App Purchases</h2>
+        <p>Trivia Challenge offers optional in-app purchases (e.g., buying coins).</p>
+        <ul>
+            <li>All purchases are processed via the Google Play Store or Apple App Store.</li>
+            <li>Refunds are subject to their respective platform policies; we do not process refunds directly.</li>
+        </ul>
+
+        <h2>5. Advertisements and Third-Party Services</h2>
+        <p>The game contains ads from third-party networks. These services may collect non-personal data to optimize ad delivery. We are not responsible for the content of third-party ads.</p>
+
+        <h2>6. Account Suspension & Termination</h2>
+        <p>We reserve the right to suspend or terminate a player’s access if they violate these terms. Cheating, hacking, or disrupting fair gameplay may result in permanent bans.</p>
+
+        <h2>7. Intellectual Property Rights</h2>
+        <p>All game content, logos, graphics, sounds, and code belong to us. Users may not use, copy, or modify any game assets without explicit permission.</p>
+
+        <h2>8. Disclaimer of Warranties</h2>
+        <p>The game is provided <strong>“as-is”</strong> without guarantees of being error-free or available at all times. We are not liable for data loss, bugs, crashes, or device issues caused by the game.</p>
+
+        <h2>9. Limitation of Liability</h2>
+        <p>We are not responsible for any direct, indirect, incidental, or consequential damages arising from the use of the game. By playing the game, you accept full responsibility for any risks.</p>
+
+        <h2>10. Changes to Terms</h2>
+        <p>We may update these Terms of Service periodically. Continued use of the game after changes means you accept the updated terms.</p>
+
+        <h2>11. Governing Law</h2>
+        <p>These terms are governed by the laws of <strong>India</strong>. Any disputes will be settled in accordance with these laws.</p>
+    </div>
+
+    <!-- PRIVACY POLICY -->
+    <div id="privacy" class="tab-content">
+        <h2>1. Information We Collect</h2>
+        
+        <h3>a) Personal Information</h3>
+        <p>We do not collect personal information such as names, emails, or phone numbers unless explicitly provided by you for customer support inquiries.</p>
+        
+        <h3>b) Non-Personal Information</h3>
+        <ul>
+            <li><strong>Device Information:</strong> Includes device model, OS version, and unique identifiers.</li>
+            <li><strong>Usage Data:</strong> Includes gameplay statistics, feature interactions, and in-app purchase history.</li>
+            <li><strong>Ad Interaction Data:</strong> Includes anonymous data on ad impressions and interactions to improve ad relevance.</li>
+        </ul>
+
+        <h3>c) In-App Purchases</h3>
+        <p>If you make purchases, they are processed securely by the Google Play Store or Apple App Store. We do not store or process your financial or payment details.</p>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the collected data to:</p>
+        <ul>
+            <li>Improve game performance and optimize user experience.</li>
+            <li>Display relevant advertisements and optimize monetization.</li>
+            <li>Prevent fraud and maintain a secure gaming environment.</li>
+        </ul>
+
+        <h2>3. Advertising and Third-Party Services</h2>
+        <p>We partner with third-party advertising and analytics networks, including:</p>
+        
+        <div class="network-grid">
+            <div class="network-item">Google AdMob</div>
+            <div class="network-item">AppLovin</div>
+            <div class="network-item">Unity Ads</div>
+            <div class="network-item">Liftoff Ads</div>
+            <div class="network-item">Meta Ads</div>
+            <div class="network-item">ironSource Ads</div>
+            <div class="network-item">Google Analytics for Firebase</div>
+        </div>
+
+        <p>These services may collect non-personal device and usage data to provide targeted ads. You can opt out of personalized ads via Google Ads settings (Android) or App Tracking Transparency (iOS).</p>
+
+        <h2>4. Data Sharing & Security</h2>
+        <ul>
+            <li>We do not sell, trade, or rent your personal data.</li>
+            <li>We share non-personal, anonymized data with third-party services for performance and ad optimization.</li>
+            <li>While we implement standard security measures, no system is 100% secure. Always use a secure network while playing.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>Trivia Challenge is intended for a general audience and is not directed at children under 13. If a parent or guardian believes their child has provided personal data, they can contact us to request its immediate removal.</p>
+
+        <h2>6. Changes to Privacy Policy</h2>
+        <p>We may update this Privacy Policy periodically. Any changes will be posted within the game and take effect immediately.</p>
+
+        <h2>7. Data Deletion Requests</h2>
+        <p>Trivia Challenge does not collect persistent personal data (e.g., accounts, email, phone number). If you do not wish to share anonymous analytics or ad data, simply uninstall the app from your device.</p>
+
+        <h2>8. Contact Us</h2>
+        <div class="contact-box">
+            <p>If you have any questions or feedback regarding our Terms of Service or Privacy Policy, please reach out to us at:</p>
+            <p style="margin-top: 10px;">📧 <strong>Email:</strong> <a class="contact-link" href="mailto:mjtechnologyofficial@yahoo.com">mjtechnologyofficial@yahoo.com</a></p>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        <p>By using Trivia Challenge, you acknowledge and agree to these legal agreements.</p>
+    </div>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            tabcontent[i].classList.remove("active");
+        }
+        tablinks = document.getElementsByClassName("tab-btn");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).style.display = "block";
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+    }
+</script>
+
+</body>
+</html>
