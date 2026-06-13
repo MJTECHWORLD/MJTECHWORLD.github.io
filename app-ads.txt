@@ -1,3 +1,5 @@
+OWNERDOMAIN=mjgamingstudio.com
+
 vungle.com,65bfd675a3d8e1001191377c,DIRECT,c107d686becd2d77
 
 ironsrc.com, 521771, DIRECT
