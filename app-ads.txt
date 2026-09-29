@@ -8,6 +8,8 @@ unity.com, 4450048, DIRECT, 96cabb5fbdde37a7
 
 google.com, pub-6653636082546557, DIRECT, f08c47fec0942fa0
 
+facebook.com, 1233418190150321, RESELLER, c3e20eee3f780d68
+
 
 # === LIFT OFF ADS ===
 
